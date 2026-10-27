@@ -1,0 +1,69 @@
+/*
+ * Design tokeny – sdílené aplikací, pluginem i prezentačním webem (Lovable).
+ * Styl: důvěryhodný pracovní nástroj (tmavě modrá), moderní lehké plochy (světlé povrchy, zaoblení)
+ * a energie autosvěta (signální oranžová jako jediný akcent, výrazná kondenzovaná čísla).
+ * Hodnoty jsou HSL bez obalu, aby šly použít v Tailwindu i shadcn/ui: hsl(var(--primary)).
+ * Při změně uprav i docs/design-system.md a prompts/lovable-web.md.
+ */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,500..800&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  /* základ */
+  --background: 220 20% 97%;        /* #F6F7F9 plocha aplikace */
+  --surface: 0 0% 100%;             /* #FFFFFF karty, tabulky */
+  --foreground: 213 47% 11%;        /* #0F1C2B text */
+  --muted: 216 18% 94%;             /* #EDF0F4 tlumené plochy */
+  --muted-foreground: 215 13% 41%;  /* #5B6676 vedlejší text */
+  --border: 216 20% 90%;            /* #E1E6ED */
+  --ring: 213 64% 30%;
+
+  /* značka */
+  --primary: 213 63% 16%;           /* #0F2742 tmavě modrá – hlavní tlačítka, navigace */
+  --primary-foreground: 0 0% 100%;
+  --accent: 16 100% 56%;            /* #FF5A1F signální oranžová – jediný akcent (CTA, aktivní stav, odznaky) */
+  --accent-foreground: 0 0% 100%;
+  --secondary: 213 40% 94%;         /* #E8EEF6 sekundární tlačítka */
+  --secondary-foreground: 213 63% 16%;
+
+  /* stavy */
+  --success: 145 80% 35%;           /* #12A150 prověřeno, prodáno, online */
+  --warning: 39 91% 55%;            /* #F5A524 pozor, dlouho na skladě */
+  --danger: 359 76% 56%;            /* #E5383B chyba, závada, odcizeno */
+  --info: 221 83% 53%;              /* #2563EB informace, odkazy */
+
+  /* stavy vozu – barvy štítků (vždy i s textem, nikdy jen barva) */
+  --status-buyout: 262 60% 55%;
+  --status-preparation: 39 91% 55%;
+  --status-ready: 199 89% 48%;
+  --status-advertised: 145 80% 35%;
+  --status-reserved: 16 100% 56%;
+  --status-sold: 213 63% 16%;
+  --status-inactive: 215 13% 60%;
+
+  /* tvar a typografie */
+  --radius: 0.625rem;               /* 10 px */
+  --radius-sm: 0.375rem;
+  --radius-lg: 1rem;
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-display: 'Archivo', 'Inter', system-ui, sans-serif;  /* nadpisy a velká čísla, font-stretch 85 % */
+  --shadow-card: 0 1px 2px hsl(213 47% 11% / 0.06), 0 1px 1px hsl(213 47% 11% / 0.04);
+  --shadow-pop: 0 8px 24px hsl(213 47% 11% / 0.12);
+}
+
+.dark {
+  --background: 215 52% 8%;         /* #0A1320 */
+  --surface: 214 45% 12%;           /* #111D2E */
+  --foreground: 213 33% 93%;        /* #E8EDF3 */
+  --muted: 214 38% 16%;
+  --muted-foreground: 214 16% 65%;
+  --border: 215 37% 21%;            /* #22324A */
+  --ring: 213 70% 70%;
+  --primary: 213 70% 92%;           /* v tmavém režimu se hlavní tlačítko obrací na světlé */
+  --primary-foreground: 213 63% 16%;
+  --secondary: 214 38% 18%;
+  --secondary-foreground: 213 33% 93%;
+}
+
+/* čísla v tabulkách a cenách vždy zarovnaná */
+.tabular { font-variant-numeric: tabular-nums; }
+.display { font-family: var(--font-display); font-stretch: 85%; letter-spacing: -0.01em; }
