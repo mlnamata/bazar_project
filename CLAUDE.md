@@ -58,6 +58,22 @@ scripts/               pomocné skripty (gen-data-model.py)
 9. **Bez scrapování** portálů ani jiných webů.
 10. **Malé kroky:** každá fáze = vlastní větev `phase/NN-nazev`, malé commity, na konci PR s popisem, co je hotové a jak to otestovat.
 
+## Skills v repu (`.claude/skills/`)
+
+Načti příslušný skill **před** prací v dané oblasti:
+
+| Skill | Kdy |
+| --- | --- |
+| `supabase` | cokoli se Supabase: Auth, Storage, Edge Functions, pg_cron, CLI, ladění chyb |
+| `supabase-postgres-best-practices` | každá migrace, RLS politika a její test, index, trigger, funkce, pomalý dotaz |
+| `vercel-react-best-practices` | psaní a revize React komponent, načítání dat, velikost bundlu |
+| `vercel-composition-patterns` | návrh sdílených komponent (DataTable, Wizard, PriceTag …) |
+| `frontend-design` + `web-design-guidelines` | nové obrazovky a revize UI proti `docs/design-system.md` (design systém má přednost) |
+| `webapp-testing` | ověření UI v prohlížeči přes Playwright, screenshoty do PR |
+| `vercel-cli-with-tokens` | nasazení ve fázi 12 (jen preview, produkci jen na pokyn) |
+
+Aktualizace: `npx skills update`; zdroje a verze jsou v `skills-lock.json`.
+
 ## Příkazy (doplň v prompt 01, udržuj aktuální)
 
 ```
