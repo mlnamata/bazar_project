@@ -4,6 +4,8 @@
 
 Přečti `CLAUDE.md`, `docs/integration-contract.md` sekce 2, 3 a 7; ve specifikaci **A9.1, A9.2 (web)**, obrazovky 1, 12 a 14, ceník a pravidla CB.1–CB.5.
 
+**Skills pro UI:** před prací načti `impeccable`, `shadcn` a `frontend-design`; po každé obrazovce `break-ui`, před PR `baseline-ui` a `web-design-guidelines`; mobilní obrazovky `mobile-native`; pohyb `animate` (viz tabulka v CLAUDE.md).
+
 ## Cíl
 
 Majitel ráno na jedné obrazovce vidí, co má dnes dělat, a jednou za měsíc, jak bazar vydělává. Firma si sama nastaví vše potřebné. Prezentační web posílá registrace pilotů do systému a demo se každou noc samo obnoví.

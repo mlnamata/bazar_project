@@ -4,6 +4,8 @@
 
 Přečti `CLAUDE.md` (pravidlo 6 o AI textech), `docs/integration-contract.md` sekce 8; ve specifikaci **A9.8–A9.11 (čeština), A9.13, A9.14, B6.8**, tabulku portálů v sekci „Portály, prověrky a dokumenty“, akceptační kritéria MVP 2 a 3; v datovém modelu `listings`, `publication_jobs`, `channel_accounts`, `ai_texts`.
 
+**Skills pro UI:** před prací načti `impeccable`, `shadcn` a `frontend-design`; po každé obrazovce `break-ui`, před PR `baseline-ui` a `web-design-guidelines`; mobilní obrazovky `mobile-native`; pohyb `animate` (viz tabulka v CLAUDE.md).
+
 ## Cíl
 
 Prodejce vygeneruje pravdivý text inzerátu, zaškrtne portály a jedním klikem vůz zveřejní. Změna ceny se propíše všude do 5 minut, prodaný vůz zmizí ze všech portálů sám a chyby portálů jsou srozumitelné.

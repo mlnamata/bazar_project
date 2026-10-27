@@ -4,6 +4,8 @@
 
 Přečti `CLAUDE.md`; ve specifikaci modul **F&I** – pro MVP jen **FI.5** a **FI.8 (poptávka k 1 partnerovi)**, pravidla **FI.1–FI.3** a **FI.32** jako omezení; v datovém modelu `finance_partners`, `company_finance_partners`, `finance_requests`. Ostatní body F&I (balíčky, pojištění, záruky, více partnerů, podpis) jsou v1 – **nestav je**, ale navrhni datový model tak, aby šly doplnit.
 
+**Skills pro UI:** před prací načti `impeccable`, `shadcn` a `frontend-design`; po každé obrazovce `break-ui`, před PR `baseline-ui` a `web-design-guidelines`; mobilní obrazovky `mobile-native`; pohyb `animate` (viz tabulka v CLAUDE.md).
+
 ## Cíl
 
 U každého vozu (karta, plugin, inzerát) je vidět orientační měsíční splátka se zákonnými údaji a zákazník nebo prodejce pošle poptávku financování partnerovi, kterého má bazar aktivního.

@@ -4,6 +4,8 @@
 
 Přečti `CLAUDE.md`, **celý** `docs/integration-contract.md` (sekce 4 a 5 jsou závazné – prezentační web na ně spoléhá), ve specifikaci **PL.1, PL.5–PL.9, BZN.3**, akceptační kritérium MVP 5 a `docs/design-system.md` sekce Přístupnost a výkon.
 
+**Skills pro UI:** před prací načti `impeccable`, `shadcn` a `frontend-design`; po každé obrazovce `break-ui`, před PR `baseline-ui` a `web-design-guidelines`; mobilní obrazovky `mobile-native`; pohyb `animate` (viz tabulka v CLAUDE.md).
+
 ## Cíl
 
 Bazar vloží jeden řádek kódu do svého webu a má nabídku vozů s filtry, detailem a formulářem; zákazník na ploše naskenuje QR kód a vidí totéž. Prezentační web ukazuje plugin s demo firmou (`key="demo"`).

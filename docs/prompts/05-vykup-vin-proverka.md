@@ -4,6 +4,8 @@
 
 Přečti `CLAUDE.md`, `docs/integration-contract.md` sekce 8; ve specifikaci **B6.2, BZ2.1 (základ), BZ2.3, V4.1, V4.3, V4.4, V4.9, V4.10, V4.12, K5.1**, dokumenty **D1, D8** a obrazovku 4; v datovém modelu `buyouts`, `vin_reports`, `mileage_records`, `checklist_templates`, `inspections`, `customers`.
 
+**Skills pro UI:** před prací načti `impeccable`, `shadcn` a `frontend-design`; po každé obrazovce `break-ui`, před PR `baseline-ui` a `web-design-guidelines`; mobilní obrazovky `mobile-native`; pohyb `animate` (viz tabulka v CLAUDE.md).
+
 ## Cíl
 
 Výkupčí na telefonu projde výkup za 10 minut: VIN z fotky → údaje vozu → prověrka → checklist stavu → doporučená cena → smlouva podepsaná prstem. Funguje i při výpadku signálu.

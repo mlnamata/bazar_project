@@ -4,6 +4,8 @@
 
 Přečti `CLAUDE.md`; ve specifikaci body **B6.1, BZ1.1, BZ1.2, BZ1.4, BZN.1, V4.9** a obrazovky 2 a 3; v datovém modelu `vehicles`, `vehicle_costs`, `vehicle_documents`, `vehicle_status_history`, `vehicle_economics`, `imports`.
 
+**Skills pro UI:** před prací načti `impeccable`, `shadcn` a `frontend-design`; po každé obrazovce `break-ui`, před PR `baseline-ui` a `web-design-guidelines`; mobilní obrazovky `mobile-native`; pohyb `animate` (viz tabulka v CLAUDE.md).
+
 ## Cíl
 
 Bazar vidí celý sklad s marží a dny na skladě, otevře kartu vozu se vším na jednom místě a do 30 minut převezme svůj stávající sklad z CSV.

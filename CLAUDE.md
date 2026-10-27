@@ -68,8 +68,27 @@ Načti příslušný skill **před** prací v dané oblasti:
 | `supabase-postgres-best-practices` | každá migrace, RLS politika a její test, index, trigger, funkce, pomalý dotaz |
 | `vercel-react-best-practices` | psaní a revize React komponent, načítání dat, velikost bundlu |
 | `vercel-composition-patterns` | návrh sdílených komponent (DataTable, Wizard, PriceTag …) |
-| `frontend-design` + `web-design-guidelines` | nové obrazovky a revize UI proti `docs/design-system.md` (design systém má přednost) |
 | `webapp-testing` | ověření UI v prohlížeči přes Playwright, screenshoty do PR |
+
+### UI a vzhled
+
+`docs/design-system.md` a `packages/brand/tokens.css` mají vždy přednost – skills ladí provedení, ne barvy, písmo ani charakter. Postup u každé nové obrazovky: **stavět** → **ověřit krajní data** → **vyčistit** → **zkontrolovat**.
+
+| Skill | Kdy |
+| --- | --- |
+| `shadcn` | přidávání a skládání komponent shadcn/ui, jejich úpravy a ladění |
+| `impeccable` | hlavní skill pro tvorbu a vylepšení obrazovek (aplikace = režim „Operate“: přehlednost a konzistence nad efekty); při prvním spuštění stáhne svůj nástroj ověřený kontrolním součtem |
+| `frontend-design` | směr a detaily nové obrazovky nebo sekce |
+| `ui-ux-pro-max` | rozhodnutí o rozvržení, stavech, responzivitě a přístupnosti podle stacku React + shadcn + Tailwind |
+| `emil-design-eng` | doladění pocitu: detaily komponent, mikrointerakce, „neviditelné“ vylepšení |
+| `break-ui` | po každé obrazovce: dlouhé názvy vozů, prázdné seznamy, 0 / 10 000 vozů, chybějící fotky, extrémní ceny a km |
+| `baseline-ui` | rychlý úklid rozestupů, hierarchie a typografie před PR |
+| `mobile-native` | PWA ať působí jako aplikace: 100vh, tap highlight, vstupy, safe-area – hlavně výkup, focení, zkušební jízda |
+| `animate` + `review-animations` + `fixing-motion-performance` | jakýkoli pohyb v UI (přechody, toasty, drawer); vždy respektovat `prefers-reduced-motion` |
+| `fixing-accessibility` | formuláře, dialogy, ovládání klávesnicí, kontrast |
+| `fixing-metadata` | veřejná stránka vozu `/v/…` a demo pluginu: title, Open Graph, JSON-LD |
+| `improve-ui` | audit hotové části aplikace proti vlastnímu design systému (jen čte, napíše plán oprav) |
+| `web-design-guidelines` | závěrečná kontrola UI před PR |
 | `vercel-cli-with-tokens` | nasazení ve fázi 12 (jen preview, produkci jen na pokyn) |
 
 Aktualizace: `npx skills update`; zdroje a verze jsou v `skills-lock.json`.

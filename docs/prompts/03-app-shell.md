@@ -4,6 +4,8 @@
 
 Přečti `CLAUDE.md`, `docs/design-system.md` (sekce Rozvržení, Komponenty, Tón), `docs/integration-contract.md` sekce 2 a ve specifikaci sekce „Obrazovky MVP“ a „Rozsah MVP“ (řádek Účet a firma).
 
+**Skills pro UI:** před prací načti `impeccable`, `shadcn` a `frontend-design`; po každé obrazovce `break-ui`, před PR `baseline-ui` a `web-design-guidelines`; mobilní obrazovky `mobile-native`; pohyb `animate` (viz tabulka v CLAUDE.md).
+
 ## Cíl
 
 Uživatel se zaregistruje, založí firmu, přihlásí se na počítači i telefonu a vidí navigaci se všemi 14 obrazovkami MVP (zatím prázdné stavy). Majitel pozve kolegy s rolemi.

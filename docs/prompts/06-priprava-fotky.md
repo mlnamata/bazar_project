@@ -4,6 +4,8 @@
 
 Přečti `CLAUDE.md`; ve specifikaci **B6.3 (jednoduché úkoly), BZ3.1, B6.6 (základ)**, řádek Fotky v „Rozsah MVP“ a obrazovky 5 a 6; v datovém modelu `vehicle_tasks`, `vehicle_costs`, `vehicle_photos`, `inspections` (kind `pre_sale`).
 
+**Skills pro UI:** před prací načti `impeccable`, `shadcn` a `frontend-design`; po každé obrazovce `break-ui`, před PR `baseline-ui` a `web-design-guidelines`; mobilní obrazovky `mobile-native`; pohyb `animate` (viz tabulka v CLAUDE.md).
+
 ## Cíl
 
 Vedoucí vidí, co se na kterém voze dělá a kolik to stojí; prodejce nafotí vůz podle šablony 16 záběrů za 5 minut a fotky jsou hned připravené pro portály i web.

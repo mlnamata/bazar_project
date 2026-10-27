@@ -4,6 +4,8 @@
 
 Přečti `CLAUDE.md` (pravidlo 5 o DPH); ve specifikaci **B6.13, BZ4.1, B6.14, BZ4.3, BZ5.1 (checklist), BZ2.3, BZN.3 (zdroj leadu qr)**, dokumenty **D3–D6**, obrazovky 8–11 a řádek Účetnictví v „Rozsah MVP“; v datovém modelu `leads`, `lead_events`, `customers`, `test_drives`, `sales`, `invoices`, `invoice_items`, `number_series`, `outbound_messages`.
 
+**Skills pro UI:** před prací načti `impeccable`, `shadcn` a `frontend-design`; po každé obrazovce `break-ui`, před PR `baseline-ui` a `web-design-guidelines`; mobilní obrazovky `mobile-native`; pohyb `animate` (viz tabulka v CLAUDE.md).
+
 ## Cíl
 
 Každý zájemce je na jednom místě u vozu a prodejce; prodej od zkušební jízdy po fakturu proběhne bez ručního přepisování (kritérium MVP 4).
