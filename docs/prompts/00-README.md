@@ -25,6 +25,8 @@ Sada promptů staví celý systém postupně: 12 fází v Claude Code (aplikace,
 | 11 | `11-prehledy-nastaveni.md` | přehled dne, přehledy, nastavení, portálové účty, registrace z webu, demo reset | 10 |
 | 12 | `12-qa-release.md` | e2e testy akceptačních kritérií, bezpečnost, výkon, nasazení | vše |
 | – | `lovable-web.md` | prezentační web v Lovable | kdykoli; formulář funguje po fázi 11 |
+| – | `lovable-web-fix.md` | opravy webu, aby nevypadal jako AI (9 kroků) | po `lovable-web.md` |
+| – | `lovable-dashboard.md` | UI aplikace v Lovable jako klikací prototyp s mock daty; pak převezme Claude Code do `apps/app` | před fází 03 |
 
 Fáze 05 a 06 jdou paralelně (různé větve). Lovable web můžeš stavět hned – do fáze 11 formulář jen ukáže hlášku a demo pluginu se zobrazí po fázi 09.
 
